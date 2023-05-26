@@ -1,0 +1,311 @@
+*{
+    font-family: Inter;
+    font-weight: 500;
+    background: #F7F7F7;
+}
+.header{
+    display: flex;
+    margin-top:50px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#header_sub{
+    color: #1EA596;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.Investment_Block{
+    position: relative;
+    width: 70vw;
+    margin-left: 15vw;
+    box-sizing: border-box;
+}
+
+.Form-Heading{
+    margin-top: 50px;
+    
+}
+
+#Form-Heading-p{
+    color: #FFFFFF;
+    background-color: #0E4059;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+
+
+.form-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+label{
+    font-size: 15px;
+    /* width: 20%; */
+
+}
+input, select{
+    background-color: white;
+    padding: 0.6rem ;
+    width:73%;
+    height:40px;
+    border-radius: 5px;
+    border: 1px solid #787878;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#smallHeading{
+    font-size: 12px;
+    color: #404040;
+    font-weight: 400;
+}
+#smallHeading2{
+    font-size: 12px;
+    color: #000000;;
+}
+
+
+
+/* Applicant Details */
+
+
+
+.btn1{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    color: 
+    #1EA596;
+    background: white;
+    border-color: 
+    #1EA596;
+    margin-top: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn2{
+    background: #1EA596;
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin-top: 50px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.btn3{
+    background: F7F7F7;
+    color: #0E4059;
+    height: 40px;
+    width: 150px;
+    font-size: 21px;
+    margin-top: 50px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.form_Detail{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.form_heading{
+    width: 20%;    
+}
+.form_heading2{
+    width: 75%;
+    height: 0px;
+    background: #0E4059;
+    margin-bottom: 60px;
+}
+
+.Label{
+    margin-left: 25%;
+}
+.Label input{
+    width:100%;
+    height:40px;
+    border: 1px solid 
+    #787878;
+    margin-top:50px;
+    font-size: 15px;
+    padding: 10px;
+}
+.LabelContact{
+    display: flex;
+    justify-content: space-between;
+}
+.LabelContact input{
+    width: 75%;
+    height:40px;
+    border: 1px solid #787878;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.Enter_otp{
+    display: flex;
+    justify-content: space-between;
+}
+.Enter_otp input{
+    width: 50%;
+    height:40px;
+    border-radius: 6px;
+    border: 1px solid #787878;
+    font-size: 15px;
+    padding: 10px;
+}
+.DOB p{
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.dobdate{
+    display: flex;
+    width: 50%;
+    gap: 25px;
+    
+}
+
+
+.File{
+    display: flex;
+    gap: 30px;
+    color: #0E4059;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: bold;
+}
+.File p{
+    text-align: center;
+    margin-top: 58px;
+}
+.File button{
+    width:15%;
+}
+
+.PanImg > input[type="file"] {
+    border-radius: 6px;
+    width: 150px;
+    border-color: #1EA596;
+  }
+  
+.PanImg > input[type="file"]::-webkit-file-upload-button {
+    background-color: white
+    #1EA596;
+    width: 110%;
+    border-radius: 6px;
+    border: none;
+    font: 100 15px "Roboto", sans-serif;
+}
+  
+
+
+.banking-pref-button{
+ display: flex;
+ width: 60%;
+ align-items: center;
+ gap: 10px;
+ border: 2px solid 
+ #787878;
+ width: 350px;
+ height: 50px;
+ margin-top: 20px;
+}
+
+.banking-pref-button2{
+ display: flex;
+ height: 60px;
+ border: 1px solid black;
+ width: 100%;
+}
+.banking-pref-button input, label{
+    color: black;
+    font-size: 15px;
+}
+
+.form_heading22{
+    margin-left: 25%;
+}
+.Nominee-section select{
+    width: 100%;
+    height: 50px;
+    margin-top: 22px;
+}
+.form_detail2{
+    margin-left: 25%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.risk-content p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: 
+    #0E4059;
+}
+.risk-content span{
+    color: #1EA596;
+    font-weight: bold;
+}
+.footerHeading p{
+    color: #0E4059;
+    display: flex;
+    font-size: 20px;
+}
+.captchaCode span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    width: 30%;
+    height: 140px;
+    background: 
+    #D9D9D9;
+    margin-top: 60px;
+}
+.captcha input{
+    width: 30%;
+    height: 70px;
+}
+.captcha p{
+    margin-top: 40px;
+}
+#submitButton{
+    width: 30%;
+}
+.radio-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+input[type="radio"]{
+    width:20px;
+    margin-left: 77px;
+}
+.radio-group label, input{
+ display: flex;
+ justify-content: flex-start;
+}
+.radio-group2{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.radio-group2 label{
+    width: 50px;
+}
