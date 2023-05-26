@@ -3,7 +3,7 @@ import "./Details2.css"
 import { useForm } from "react-hook-form";
 import axios from "axios";
 
-const backend = "http://localhost:5000"
+// const backend = "http://localhost:5000"
 
 
 const Details2 = () => {
@@ -13,7 +13,7 @@ const Details2 = () => {
     const onSubmit = async (data) => {
         // console.log(data);
         try {
-            const response = await axios.post(`${backend}/api/v1/user/upload`,data);
+            const response = await axios.post(`/api/v1/user/upload`,data);
             console.log(response.data);
             reset();
             } catch (error) {
@@ -27,7 +27,7 @@ const Details2 = () => {
 
         const uploadImg = async (data) => {
             try {
-                const response = await axios.post(`${backend}/api/v1/upload`,data);
+                const response = await axios.post(`/api/v1/upload`,data);
                 console.log(response);
                 } catch (error) {
                     console.log(error);
