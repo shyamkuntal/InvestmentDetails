@@ -216,7 +216,7 @@ const Details2 = () => {
         <input id="Cancelled_Cheque" type="radio" value="Cancelled_Cheque" name='Cancelled_Cheque'  {...register('Cancelled_Cheque')} /><label htmlFor='Cancelled_Cheque'>Cancelled Cheque</label></div>
 
         <div className="banking-pref-button">
-        <input type="radio" value="Bank_Details" name='Bank_Details' id="Bank_Details" {...register('Bank_Details')} /><label htmlFor='Bank_Details'>Bank Details</label>
+        <input type="radio" value="Bank_Details" name='Cancelled_Cheque' id="Cancelled_Cheque" {...register('Bank_Details')} /><label htmlFor='Bank_Details'>Bank Details</label>
         </div>   
     </div>
 
